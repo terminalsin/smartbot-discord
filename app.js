@@ -37,4 +37,4 @@ process.on("unhandledRejection", err => {
   log.error("Unhandled Promise Rejection: " + err.stack);
 });
 
-client.login(auth.loginToken);
+client.login(process.env.BOT_TOKEN);
