@@ -1,6 +1,5 @@
 const Discord = require(`discord.js`);
 const tokens = require(`./tokens.json`);
-const auth = require(`./auth.json`);
 const fs = require(`fs`);
 const log = require(`./handlers/logHandler.js`);
 const client = new Discord.Client();
